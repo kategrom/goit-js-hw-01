@@ -95,3 +95,17 @@
 
 // Task 6
 
+let total = 0;
+let input;
+
+do {
+  input = prompt('Введіть число');
+  if (isNaN(input)) {
+    alert('Було написано не число, повторіть спробу');
+    continue;
+  }
+
+  total += Number(input);
+} while(input !== null);
+
+alert(total);
