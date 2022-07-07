@@ -26,36 +26,36 @@
 
 // Task 3
 
-// const ADMIN_PASSWORD = 'adminpassword';
-// let password = prompt('Введіть пароль користувача:');
+// const ADMIN_PASSWORD = 'jqueryismyjam';
+// let password = prompt('введіть пароль адміна');
 // let message;
 
-// if (password) {
+// if (!password) {
 //     message = 'Скасовано користувачем!';
 // } else if (password === ADMIN_PASSWORD) {
 //     message = 'Ласкаво просимо!';
 // } else {
-//     message = "Доступ заборонений, невірний пароль!";
-// };
+//     message = 'Доступ заборонений, невірний пароль!';
+// }
 
 // alert(message);
 
 
 // Task 4
 
-// let credit = 23590;
+// let credits = 23590;
 // const pricePerDroid = 3000;
-// const order = +prompt("Яку кількість дроїдів яку ви хочете придбати:");
+// const order = +prompt('Введіть кількість дроїдів яку ви хочете придбати: ');
 // let totalPrice;
 
-// if (order) {
-//     console.log("Скасовано користувачем");
+// if (!order) {
+//     console.log('Скасовано користувачем');
 // } else {
 //     totalPrice = pricePerDroid * order;
-//     if (credit >= totalPrice) {
-//         console.log(`Ви купили ${order} дроїдів, на рахунку залишилося ${credit - totalPrice} кредитів.`)
+//     if (credits >= totalPrice) {
+//         console.log(`Ви купили ${order} дроїди, на рахунку залишилося ${credits - totalPrice} кредитів.`)
 //     } else {
-//         console.log("Недостатньо коштів на вашому рахунку!");
+//         console.log('Недостатньо коштів на вашому рахунку!');
 //     }
 // }
 
@@ -95,17 +95,17 @@
 
 // Task 6
 
-let total = 0;
-let input;
+// let total = 0;
+// let input;
 
-do {
-  input = prompt('Введіть число');
-  if (isNaN(input)) {
-    alert('Було написано не число, повторіть спробу');
-    continue;
-  }
+// do {
+//   input = prompt('Введіть число');
+//   if (isNaN(input)) {
+//     alert('Було написано не число, повторіть спробу');
+//     continue;
+//   }
 
-  total += Number(input);
-} while(input !== null);
+//   total += Number(input);
+// } while(input !== null);
 
-alert(total);
+// alert(total);
